@@ -5,7 +5,7 @@ import "golang.org/x/exp/constraints"
 
 type Number interface {
 	constraints.Integer
-	constratins.Float
+	constraints.Float
 }
 
 // Add adds two numbers and returns their sum. See [MathIsFun]
