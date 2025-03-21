@@ -4,8 +4,8 @@ package sum
 import "golang.org/x/exp/constraints"
 
 type Number interface {
-	Integer
-	Float
+	constraints.Integer
+	constratins.Float
 }
 
 // Add adds two numbers and returns their sum. See [MathIsFun]
